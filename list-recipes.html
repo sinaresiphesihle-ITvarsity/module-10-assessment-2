@@ -42,13 +42,15 @@
                         for(a = 0; a < data.length; a++){
                             output += 
                             `
-                               <a href="show-recipes.html?id=${data[a].id}">
+                            <div class="List">
+                                    <a href="show-recipes.html?id=${data[a].id}">
 
                                     <div class="meals-list-items">
                                         <h1>${data[a].title}<i class="fas fa-chevron-circle-right"></i></h1>
                                             <p>${data[a].description}</p>
                                 </div>
                                 </a>
+                                </div>
                             `;
                         }
                         document.getElementById("output").innerHTML = output;
