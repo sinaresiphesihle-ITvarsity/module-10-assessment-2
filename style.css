@@ -15,7 +15,7 @@ body{
     background-repeat: no-repeat;
 }
 .body-meals{
-    background-image: url('images/wooden.jpg');
+    background-image: url('images/background-02-land.png');
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -64,6 +64,7 @@ body{
     font-weight: bold;
     text-align: center;
     border: 5px solid white;
+    border-radius: 20px;
     display: block;
     margin: auto;
     margin-bottom: 10px;
@@ -79,21 +80,23 @@ body{
  text-decoration: none;
 }
 .meals-list-items{
-    border: 2px solid white;
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
     margin: 10px;
-    text-decoration: none;
 }
+
+
 .meals-list-items h1{
     font-weight: bold;
     font-size: 20px;
-    color: white;
+    color: black;
     padding-left: 10px;
 }
- 
 .meals-list p{
     font-size: 15px;
     font-style: italic;
-    color: white;
+    color: black;
     margin-top: -7px;
     padding-left: 10px;
     text-decoration: none;
@@ -108,6 +111,13 @@ body{
 #recipe{
     padding-top: 50px;
 }
+
+/*-----------List--------------*/
+.List a{
+    text-decoration: none;
+
+}
+/*-----------------------------*/
 /*===RECIPE DETAILS===*/
 .recipe-details img{
     width: 100%
@@ -180,6 +190,7 @@ body{
         width: 40%;
         margin:auto;
     }
+    
 }
     
     @media only screen and (min-width:750px){
@@ -192,7 +203,7 @@ body{
     }
 
     
-    
+   
     
     
     
